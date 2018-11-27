@@ -18,5 +18,12 @@ public class PTra03_09 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+				System.out.println("0～6の整数を入力してください");
+				int input = new java.util.Scanner(System.in).nextInt();
+				if(0>input||input>7){
+					System.out.println("0～6の整数を入力してください");
+				}else {
+					System.out.println(input);
+				}
 	}
 }

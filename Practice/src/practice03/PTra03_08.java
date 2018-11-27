@@ -7,6 +7,9 @@ package practice03;
  */
 
 public class PTra03_08 {
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// 入力型プログラムです。
 		// 下記の命令は、入力型プログラムで必要な記述になります。
@@ -35,6 +38,16 @@ public class PTra03_08 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-
+		if(num==1) {
+			money=money-150;
+		}
+		else if(num==2) {
+			money=money-160;
+		}
+		else if(num==3) {
+			money=money-200;
+		}
+		//上記は、money=money-対応した商品の値段分である。
+		System.out.println(money);
 	}
 }
