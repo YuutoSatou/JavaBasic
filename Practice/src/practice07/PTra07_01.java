@@ -10,7 +10,7 @@ public class PTra07_01 {
 	public static void main(String[] args) {
 
 		// ★ int型の配列arrayを宣言してください
-
+			int array;
 
 		// ★ 変数arrayの配列を5個の領域で確保してください
 
