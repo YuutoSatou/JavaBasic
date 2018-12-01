@@ -24,6 +24,13 @@ public class PTra06_07 {
 		 * ■■□□□
 		 * ■□□□□
 		 */
-
+		for (int i = 0; i < 5; i++) {
+			System.out.print("■"); //縦の列
+			for (int j = 2; j < 6; j++) {
+				System.out.print("■"); //横の列
+			}
+			System.out.println(""); // 改行
+		}
 	}
 }
+//わからない

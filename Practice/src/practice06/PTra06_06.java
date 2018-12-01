@@ -19,12 +19,13 @@ public class PTra06_06 {
 		 * ■■■□□
 		 * ■■■■□
 		 */
-//		for (int i = 1; i<6; i++) {
-//			System.out.print("■");		//縦の列
-//			for (int j=2;j<6;j++){
-//				System.out.print("■"); //横の列
-//			}
-//			System.out.println(""); // 改行
-//		}
+		for (int i = 0; i<5; i++) {
+			System.out.print("■");		//縦の列
+			for (int j=2;j<6;j++){
+				System.out.print("■"); //横の列
+			}
+			System.out.println(""); // 改行
+		}
 	}
 }
+//わからない（for文を追加してみたが、無限ループになってしまった。）
