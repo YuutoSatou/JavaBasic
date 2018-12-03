@@ -10,12 +10,11 @@ public class PTra08_01 {
 	public static void main(String[] args) {
 
 		// ★ 変数receiveを宣言し、メソッドnumberを実行した結果を代入してください
-
-
+		int receive;
+		receive = number();
 		// ★ 変数receiveを出力してください
-
+		System.out.println(receive);
 	}
-
 	/*
 	 * 以下の仕様でメソッドを作成しました
 	 *
@@ -28,4 +27,6 @@ public class PTra08_01 {
 	public static int number() {
 		return 100;
 	}
+
 }
+//メソッドの中にメソッドは作れない→解決済み

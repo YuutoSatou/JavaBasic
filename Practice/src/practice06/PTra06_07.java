@@ -24,13 +24,29 @@ public class PTra06_07 {
 		 * ■■□□□
 		 * ■□□□□
 		 */
-		for (int i = 0; i < 5; i++) {
-			System.out.print("■"); //縦の列
-			for (int j = 2; j < 6; j++) {
-				System.out.print("■"); //横の列
+
+		for (int i = 0; i < 6; i++) {		//縦の列
+			for (int j = 0; j < 5; j++) {	//横の列
+				if(j<i) {
+					System.out.print("■");
+				} else {
+					System.out.print("□");
+				}
 			}
 			System.out.println(""); // 改行
-		}
+			}
+		for (int i = 6; i < 10; i++) {		//縦の列
+			for (int j = 0; j < 5; j++) {	//横の列
+				if(j<i) {
+					System.out.print("□");
+				} else {
+					System.out.print("■");
+				}
+			}
+			System.out.println(""); // 改行
+			}
+
 	}
-}
+	}
 //わからない
+//縦１０マス横５マスにする。

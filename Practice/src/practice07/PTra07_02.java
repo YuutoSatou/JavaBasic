@@ -13,13 +13,16 @@ public class PTra07_02 {
 		int array[];
 		array = new int[1000];
 		// ★ 配列arrayに [1,2,3,4,5,6,7,・・・・,998,999,1000] を代入してください
-		for (int i = 1; i <= 1000; i++) {
+		for (int i = 1; i < 1001; i++) {
 			array[i - 1] = i;
-
-			// ★ 変数arrayに格納されている値を前から順番に全て表示してください
-			for (int i = 1; i < array.length; i++) {
-				System.out.println(array[i]);
 		}
+		// ★ 変数arrayに格納されている値を前から順番に全て表示してください
+		for (int i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
+		}
+
 	}
 }
-//	調べながらやったが、エラーがでてしまった。
+//調べながらやったが、エラーがでてしまった。
+//２０、２１行目の記述がわからない。
+//→解決済み
