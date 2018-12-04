@@ -30,11 +30,22 @@ public class PTra08_06 {
 	}
 
 	// ★ dispValueを引数intでオーバーロードしてください。処理は同じ
-
+	public static void dispValue(int message) {
+		System.out.println("「" + message + "」");
+	}
 
 	// ★ dispValueを引数doubleでオーバーロードしてください。処理は同じ
-
+	public static void dispValue(double message) {
+		System.out.println("「" + message + "」");
+	}
 
 	// ★ dispValueを引数charでオーバーロードしてください。処理は同じ
-
+	public static void dispValue(char message) {
+		System.out.println("「" + message + "」");
+	}
 }
+
+//dispvalueが検索しても載っていない。
+//オーバーロードしてくださいとは？やり方がわからない。
+//オーバーロードとは、同一クラス内で、メソッド名が同一で引数の型、数、並び順が異なるメソッドを
+//複数定義することを言います。
