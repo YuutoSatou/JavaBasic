@@ -5,6 +5,6 @@ public class User {
 	int userId;
 	String userNm;
 	String mail;
-	String Password;
+	String password;
 //	メソッドなし
 }

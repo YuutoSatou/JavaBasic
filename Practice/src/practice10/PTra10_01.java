@@ -25,15 +25,18 @@ public class PTra10_01 {
 
 		// Userクラスを作成後に着手してください
 		// ★ User型の変数usを宣言してください
-			User us;
+		User us;
 		// ★ 変数usに、Userクラスのインスタンスを作成・代入してください
-			us = new User();
+		us = new User();
 
 		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
-
+		System.out.println(us.userId);
+		System.out.println(us.userNm);
+		System.out.println(us.mail);
+		System.out.println(us.password);
 	}
 }
 
 //記述個所がわからない。(javaファイルの作成)→解決
 //User型について調べたが、適切なサイトがなく、わからなかった。→解決
-//インスタンスのフィールドの出力方法とは？
+//インスタンスのフィールドの出力方法とは？→System.out.println(変数名.フィールド名);
