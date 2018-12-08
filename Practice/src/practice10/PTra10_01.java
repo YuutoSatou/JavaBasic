@@ -21,18 +21,19 @@ public class PTra10_01 {
 	 * メソッド
 	 * 		なし
 	 */
-
 	public static void main(String[] args) {
 
 		// Userクラスを作成後に着手してください
 		// ★ User型の変数usを宣言してください
 			User us;
 		// ★ 変数usに、Userクラスのインスタンスを作成・代入してください
-
+			us = new User();
 
 		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
 
 	}
 }
 
-//User型について調べたが、適切なサイトがなく、わからなかった。
+//記述個所がわからない。(javaファイルの作成)→解決
+//User型について調べたが、適切なサイトがなく、わからなかった。→解決
+//インスタンスのフィールドの出力方法とは？
