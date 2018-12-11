@@ -48,11 +48,11 @@ public class PTra10_05 {
 		int n=0;
 		int x=0;
 		while (bbb < distance) {
-			if (car.gasoline > 0) {
-				bbb += car.run();
-			} else {
-				System.out.println("目的地に到達できませんでした");
-				break;
+			if (car.gasoline > 0) {		//ガソリンが０より上の時に実行する。
+				bbb += car.run();		// +=は、a += b（例） a = a + b と同じとなる。
+			} else {					//ガソリンがなくなってしまった場合の処理
+				System.out.println("目的地に到達できませんでした"); //出力
+				break; 					//break文が実行されるとブロックを抜けて次の処理へ移ります。
 			}
 		}
 		if (bbb>=distance) {
@@ -60,6 +60,6 @@ public class PTra10_05 {
 		}
 	}
 }
-//返り値の合計　ガス欠なのかdistanceを超えるのか
 //n時間の箇所を記述する。
+//返り値の合計　ガス欠なのかdistanceを超えるのか
 //System.out.println("目的地にまで+n+時間かかりました。残りのガソリンは、+x+リットルです");の箇所を修正する。
