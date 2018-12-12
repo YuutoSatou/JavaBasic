@@ -1,13 +1,11 @@
 package practice12;
-
+import practice12.common.Student;
 /*
  * PTra12_01.java
  *   作成	LIKEIT	2017
  *------------------------------------------------------------
  * Copyright(c) Rhizome Inc. All Rights Reserved.
  */
-import practice12.common.Student;
-
 public class PTra12_01 {
 	public static void main(String[] args) {
 
@@ -18,18 +16,34 @@ public class PTra12_01 {
 		 * ★ 下記、インスタンスフィールドへのアクセスをアクセサ経由に変更してください
 		 */
 		Student student = new Student();
-		student.studentId = 10001;
-		student.studentName = "リゾーム太郎";
-		student.companyName = "株式会社リゾーム";
-		student.className = "Z教室";
-		student.mail = "rhizome@hogehoge.com";
-		student.password ="1qazxcvb";
+		student.setstudentId(10001);
+		student.setstudentName("リゾーム太郎");
+		student.setcompanyName("株式会社リゾーム");
+		student.setclassName("Z教室");
+		student.setmail("rhizome@hogehoge.com");
+		student.setpassword("1qazxcvb");
 
-		System.out.println("受講生ID　：" + student.studentId);
-		System.out.println("受講生名　：" + student.studentName);
-		System.out.println("会社名　　：" + student.companyName);
-		System.out.println("教室名　　：" + student.className);
-		System.out.println("メール　　：" + student.mail);
-		System.out.println("パスワード：" + student.password);
+		System.out.println("受講生ID　：" + student.getstudentId());
+		System.out.println("受講生名　：" + student.getstudentName());
+		System.out.println("会社名　　：" + student.getcompanyName());
+		System.out.println("教室名　　：" + student.getclassName());
+		System.out.println("メール　　：" + student.getmail());
+		System.out.println("パスワード：" + student.getpassword());
 	}
 }
+//以下　例
+//package practice.practice18;
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        Employee employee = new Employee();
+//
+//        employee.setCompany("テストカンパニー");
+//        employee.setName("山田太郎");
+//        employee.setAge(20);
+//
+//        System.out.println(employee.getCompany());
+//        System.out.println(employee.getName());
+//        System.out.println(employee.getAge());
+//    }
+//}
