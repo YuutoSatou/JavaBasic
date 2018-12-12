@@ -13,6 +13,7 @@ public class PTra11_01 {
 		 * 以下のプログラムではコンパイルエラーが起きてしまいます
 		 * ★ コンパイルが通るように修正してください(引数5つのコンストラクタを利用すること)
 		 */
+
 		Book book = new Book();
 		book.title = "スッキリわかるJava入門";
 		book.author = "中山清喬／国本大悟";
@@ -24,3 +25,7 @@ public class PTra11_01 {
 		System.out.println(book.dispBookInfo());
 	}
 }
+
+//コンストラクタ問題
+//Book.javaに追記する。
+//自力で解けた。

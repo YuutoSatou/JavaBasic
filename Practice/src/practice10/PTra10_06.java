@@ -19,11 +19,25 @@ public class PTra10_06 {
 		 * 各carインスタンスのrunメソッドを実行して、それぞれ「目的地にまでn時間かかりました。残りのガソリンは、xリットルです」を出力してください。
 		 */
 
+		public class car{
+		String color;
+		int gasoline;
+
 		car a = new car();
+		car.color = "Red";
+		a=car.color;
+		car.gasoline = "10";
+
 		car b = new car();
+		car.color = "blue";
+		car.gasoline = "100";
+
 		car c = new car();
+		car.color = "green";
+		car.gasoline = "1000";
 
 	}
+}
 }
 
 //carインスタンスを3件作成

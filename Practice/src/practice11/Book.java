@@ -31,6 +31,10 @@ public class Book {
 		this.publication = publication;
 	}
 
+	public Book() {										//追記個所
+		// TODO 自動生成されたコンストラクター・スタブ
+	}
+
 	/** 本のタイトル */
 	String title;
 
