@@ -38,6 +38,7 @@ public class Student {
 	public void setstudentId(int studentId) {
 		this.studentId = studentId;
 	}
+
 	//stundentName
 	public String getstudentName() {
 		return studentName;
@@ -46,6 +47,7 @@ public class Student {
 	public void setstudentName(String studentName) {
 		this.studentName = studentName;
 	}
+
 	//companyName
 	public String getcompanyName() {
 		return companyName;
@@ -54,6 +56,7 @@ public class Student {
 	public void setcompanyName(String companyName) {
 		this.companyName = companyName;
 	}
+
 	//className(教室名)
 	public String getclassName() {
 		return className;
@@ -62,6 +65,7 @@ public class Student {
 	public void setclassName(String className) {
 		this.className = className;
 	}
+
 	//mail
 	public String getmail() {
 		return mail;
@@ -70,6 +74,7 @@ public class Student {
 	public void setmail(String mail) {
 		this.mail = mail;
 	}
+
 	//password
 	public String getpassword() {
 		return password;

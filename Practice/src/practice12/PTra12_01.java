@@ -1,5 +1,7 @@
 package practice12;
+
 import practice12.common.Student;
+
 /*
  * PTra12_01.java
  *   作成	LIKEIT	2017
