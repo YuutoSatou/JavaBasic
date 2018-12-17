@@ -12,7 +12,7 @@ import practice17.common.ThrowExceptionUtil;
 
 public class PTra17_03 {
 	public static void main(String[] args) {
-		quiz();
+		quiz();		//quizメソッドの呼び出し
 	}
 
 	public static void quiz() {
@@ -23,7 +23,7 @@ public class PTra17_03 {
 		};
 		final int[] answer = {1, 3, 1995};
 
-		int score = 0;
+		int score = 0;		//変数scoreの初期化
 
 		System.out.println("クイズを始めます");
 

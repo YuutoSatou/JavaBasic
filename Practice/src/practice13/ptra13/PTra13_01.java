@@ -12,10 +12,15 @@ public class PTra13_01 {
 	 * ★ PTra13_01クラスはcommon.Animalクラスを継承してください
 	 */
 
+//	public class PTra13_01 extends common.Animal{
+//		}
+
+
 	public static void main(String[] args) {
 
 		// ★ PTra13_01をインスタンス化をしてください
 
+//		common.Animal PTra13_01= new common.Animal;
 
 		// ★ PTra13_01の持つsetterを実行してください（引数："人"）
 
@@ -24,3 +29,6 @@ public class PTra13_01 {
 
 	}
 }
+
+
+//
