@@ -25,3 +25,5 @@ public class PTra15_01 {
 	}
 
 }
+
+//難しい。

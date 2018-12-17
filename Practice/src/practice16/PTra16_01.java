@@ -1,9 +1,9 @@
 package practice16;
 
-/*
- */
 import java.text.SimpleDateFormat;
 import java.util.Date;
+/*
+ */
 
 public class PTra16_01 {
 	public static void main(String[] args) {
