@@ -22,3 +22,5 @@ public class PTra16_03 {
 
 	}
 }
+
+//難しい(toString)

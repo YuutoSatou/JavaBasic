@@ -14,11 +14,10 @@ public class PTra09_01 {
 
 		// ★ 変数strを、Util内のメソッドを用いて0.5秒間隔で表示させなさい
 		// ※ Utilはインポートしても良いし、完全限定名で記述しても良いです
-		Util.dispMessageSlowly(str,500);
+		Util.dispMessageSlowly(str, 500);
 	}
 }
 
 //完全限定名とは、パッケージ名を省略しない形での名前のことです。
 //パッケージ名.クラス名
-//15,16行目がわからない。
-//import文がよくわからない。
+//import文がよくわからない。→解決

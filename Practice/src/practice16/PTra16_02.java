@@ -19,30 +19,30 @@ public class PTra16_02 {
 		double d = 453.592;
 
 		// ★ 上記基本型を、それぞれのラッパークラスに代入してください
-		Integer oi = new Integer(i);
-		int val = oi.intValue();
+		Integer i2 = new Integer(i);
+		Boolean b2 = new Boolean(b);
+		Byte by2 = new Byte(by);
+		Short s2 = new Short(s);
+		Character c2 = new Character(c);
+		Long l2 = new Long(l);
+		Float f2 = new Float(f);
+		Double d2 = new Double(d);
 
-
-
-
-
-//ラッパークラスの使い方がよくわからない。
-
-//		boolean
-//		java.lang.Boolean
-//		byte
-//		java.lang.Byte
-//		short
-//		java.lang.Short
-//		int
-//		java.lang.Integer
-//		float
-//		java.lang.Float
-//		double
-//		java.lang.Double
-//		char
-//		java.lang.Character
+		//自力で解けた。
+		//		boolean
+		//		java.lang.Boolean
+		//		byte
+		//		java.lang.Byte
+		//		short
+		//		java.lang.Short
+		//		int
+		//		java.lang.Integer
+		//		float
+		//		java.lang.Float
+		//		double
+		//		java.lang.Double
+		//		char
+		//		java.lang.Character
 
 	}
 }
-
