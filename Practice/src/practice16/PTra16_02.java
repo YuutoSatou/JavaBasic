@@ -44,6 +44,7 @@ public class PTra16_02 {
 		Double d2 = d;
 		double d3 = d2;
 
+		//自力で解けた。
 		//		Integer i2 = new Integer(i);
 		//		Boolean b2 = new Boolean(b);
 		//		Byte by2 = new Byte(by);
@@ -53,7 +54,6 @@ public class PTra16_02 {
 		//		Float f2 = new Float(f);
 		//		Double d2 = new Double(d);
 
-		//自力で解けた。
 		//		boolean
 		//		java.lang.Boolean
 		//		byte
