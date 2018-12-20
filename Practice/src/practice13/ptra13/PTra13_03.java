@@ -8,7 +8,7 @@ package practice13.ptra13;
 
 import practice13.common.Slime;
 
-public class PTra13_03 extends Slime{
+public class PTra13_03 extends Slime {
 
 	/*
 	 * ★ common.Characterクラスを継承した、common.Slimeクラスを作成してください
