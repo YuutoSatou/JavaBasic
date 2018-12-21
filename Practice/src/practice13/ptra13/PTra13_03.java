@@ -28,4 +28,5 @@ public class PTra13_03 extends Slime {
 	}
 }
 
+//正しく表示された。
 //13-2に似ている。

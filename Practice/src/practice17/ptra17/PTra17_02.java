@@ -40,4 +40,4 @@ public class PTra17_02 {
 }
 
 //自力で解けた。
-//try catchにして、変数を初期化した。
+//try-catchにして、変数を初期化した。（コンパイルエラーになる前にtry-catchをする）

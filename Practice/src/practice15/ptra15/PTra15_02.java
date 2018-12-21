@@ -9,7 +9,7 @@ package practice15.ptra15;
 import practice15.common.Java2Month;
 import practice15.common.Room;
 
-public class PTra15_02 {
+public class PTra15_02 extends Java2Month{  			//継承
 	public static void main(String[] args) {
 
 		Room room = new Java2Month();
@@ -20,5 +20,8 @@ public class PTra15_02 {
 
 		// 取得したカリキュラム情報を全て出力してください
 
+		System.out.println(room.getCurriculum());
 	}
 }
+
+

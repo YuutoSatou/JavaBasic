@@ -38,3 +38,5 @@ public class PTra18_02 {
 
 	}
 }
+
+//entity.Playerクラスを作ろうとするとエラーが発生する。

@@ -18,7 +18,7 @@ public class PTra17_04 {
 		for (int i = 0; i <= str.length() - 1; i++) {			//for文を追記
 			try {
 
-				Thread.sleep(3000); //3000ミリ秒Sleepする
+				Thread.sleep(3000); 							//3000ミリ秒Sleepする
 
 			} catch (InterruptedException e) {
 			}

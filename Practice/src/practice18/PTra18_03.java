@@ -25,7 +25,10 @@ public class PTra18_03 {
 
 
 		// ★ 削除後のArrayListの中身を全件出力してください
+		System.out.println(ArrayList[]);
 
 
 	}
 }
+
+//途中まで。
