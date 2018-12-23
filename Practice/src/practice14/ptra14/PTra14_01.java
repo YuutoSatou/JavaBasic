@@ -25,4 +25,4 @@ public class PTra14_01 {
 
 }
 
-//クラスを作成するのみ。
+//JavaCourseクラスを作成。

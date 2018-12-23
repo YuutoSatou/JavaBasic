@@ -20,35 +20,21 @@ public class PTra18_01 {
 			while (scanner.hasNext()) {
 				String line = scanner.nextLine();
 
-				// ★ 1行ごとにArrayListに格納してください
+		// ★ 1行ごとにArrayListに格納してください
 				array.add(line);
-				//                ArrayList<Integer> list = new ArrayList<Integer>();
-				//                list.add(10);
-				//                list.add(100);
-				//                list.add(200);
-
 			}
 		} catch (FileNotFoundException e) {
 			System.out.println("ファイルが見つかりません");
 		}
-		for (String name : array) {
-			System.out.println(name.replaceAll(",", "\t"));
-		}
-		//                }
-		//                }
 
 		// ★ ArrayListに格納された値を全て表示してください
 		// ※ できれば拡張for文を使いましょう
-
-		//        for (データ型 変数名: コレクション){
-		//        	  実行する文1;
-		//        	  実行する文2;
-		//        	  ...
-		//        	}
+		for (String name : array) {
+			System.out.println(name.replaceAll(",", "\t"));
+		}
 
 	}
 }
 
-//演習問題を解けばわかる。
-//1行ごとにArrayListに格納してくださいとは？
+//解けた。
 //この場合の拡張for文とは？→解決

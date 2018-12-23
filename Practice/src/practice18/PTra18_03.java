@@ -6,6 +6,10 @@
  */
 package practice18;
 
+import java.util.ArrayList;
+
+import entity.Player;
+
 public class PTra18_03 {
 
 	/*
