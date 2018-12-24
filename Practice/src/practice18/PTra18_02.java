@@ -42,20 +42,20 @@ public class PTra18_02 {
 			e.printStackTrace();
 		}
 		BufferedReader br = new BufferedReader(br);
-		entity et = new entity();									//et �C���X�^���X
-		String line;												//line���`
+		entity et = new entity();
+		String line;
 		ArrayList<Player> array = new ArrayList<Player>();			//ArrayList
 
-			while((line = br.readLine()) !=null) {					//null�ł͂Ȃ��ꍇ�́B
-				String[] s = new String[4];							//s�z��
-				Player p = new Player();							//p  �C���X�^���X
-				s = line.split(",");								//split���g�p
+			while((line = br.readLine()) !=null) {
+				String[] s = new String[4];
+				Player p = new Player();
+				s = line.split(",");								//split
 				p.setPosition(s[0] + ",");							//Potiton
 				p.setName(s[1] + ",");								//Name
 				p.setCountry(s[2] + ",");							//Country
 				p.setTeam(s[3] + ",");								//Team
 
-				array.add(p);										//add���\�b�h
+				array.add(p);										//addメソッド
 
 			}
 	 	} catch (IOException e) {
