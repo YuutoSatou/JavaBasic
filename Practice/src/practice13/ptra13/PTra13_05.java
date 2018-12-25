@@ -20,12 +20,7 @@ public class PTra13_05 {
 	 * 		name, additionalDamageに初期値を設定するコンストラクタ
 	 * 		上記2つを設定するための引数を持つ
 	 */
-public class common.Item{
-	String name;
-	int   additionalDamage;
-//	 * メソッド
-//	 * 		各フィールドのアクセサ
-}
-
 
 }
+
+//クラスの作成をする問題。

@@ -41,14 +41,14 @@ public class PTra18_02 {
 			// TODO 自動生成された catch ブロック
 			e.printStackTrace();
 		}
-		BufferedReader br = new BufferedReader(br);
-		entity et = new entity();
-		String line;
+		BufferedReader br = new BufferedReader(br);		//データの読み込みを行うためのクラス
+		entity et = new entity();						//インスタンス
+		String line;									//変数ラインを定義
 		ArrayList<Player> array = new ArrayList<Player>();			//ArrayList
 
-			while((line = br.readLine()) !=null) {
-				String[] s = new String[4];
-				Player p = new Player();
+			while((line = br.readLine()) !=null) {					//nullでない場合は
+				String[] s = new String[4];							//配列sを定義
+				Player p = new Player();							//pインスタンス
 				s = line.split(",");								//split
 				p.setPosition(s[0] + ",");							//Potiton
 				p.setName(s[1] + ",");								//Name
@@ -76,3 +76,5 @@ public class PTra18_02 {
 	}
 }
 }
+
+//コメント行を追加(2018/12/25)

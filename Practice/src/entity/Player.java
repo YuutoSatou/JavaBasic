@@ -1,56 +1,66 @@
 package entity;
 
 public class Player {
-    //position
-    private String position;
+	//position
+	private String position;
 
-    //name
-    private String name;
+	//name
+	private String name;
 
-    //country
-    private String country;
+	//country
+	private String country;
 
-    //team
-    private String team;
+	//team
+	private String team;
 
-    public void setPosition(String positon) {
-        this.position = position;
-    }
+	//position
 
-    public String getPosition() {
-        return this.position;
-    }
+	public String getPosition() { //get
+		return this.position;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setPosition(String positon) { //set
+		this.position = position;
+	}
 
-    public String getName() {
-        return this.name;
-    }
+	//name
 
-    public void setCountry(String country) {
-        this.country = country;
-    }
+	public String getName() { //get
+		return this.name;
+	}
 
-    public String getCountry() {
-        return this.country;
-    }
+	public void setName(String name) { //set
+		this.name = name;
+	}
 
-    public void setTeam(String team) {
-        this.team = team;
-    }
+	//country
 
-    public String getTeam() {
-        return this.team;
-    }
+	public String getCountry() { //get
+		return this.country;
+	}
 
-    @Override
-    public String toString() {
-        return this.position + "," + this.name + "," + this.country + "," + this.team;
-    }
+	public void setCountry(String country) { //set
+		this.country = country;
+	}
+
+	//team
+
+	public String getTeam() { //get
+		return this.team;
+	}
+
+	public void setTeam(String team) { //set
+		this.team = team;
+	}
+
+	@Override
+	public String toString() {
+		return this.position + "," + this.name + "," + this.country + "," + this.team;
+	}
 }
+//完成(2018/12/25)
 
+//バックアップ
 //package entity;
 //
 //public class Player {

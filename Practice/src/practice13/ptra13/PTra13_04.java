@@ -8,9 +8,8 @@ package practice13.ptra13;
 
 import common.Hero;
 import practice13.common.Slime;
-import practice13.ptra13.PTra13_05.common;
 
-public class PTra13_04 extends common {
+public class PTra13_04 {
 
 	/*
 	 * ★ PTra13_02, PTra13_03で作成した、Hero/Slimeクラスを使用します
@@ -38,3 +37,5 @@ public class PTra13_04 extends common {
 		}
 	}
 }
+
+//難しい。
