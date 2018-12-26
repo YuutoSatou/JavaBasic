@@ -30,7 +30,7 @@ public class PTra18_03 {
 
 		Player a = new Player();	//Playerインスタンス
 
-		ArrayList<String> array = new ArrayList<>();
+		ArrayList<String> array = new ArrayList<String>();			//ArrayList
 		try (Scanner scanner = new Scanner(new File("file/BestElevenCandidate.csv"))) {
 			while (scanner.hasNext()) {
 				String line = scanner.nextLine();
@@ -43,7 +43,7 @@ public class PTra18_03 {
 
 		// ★ ①のArrayListの中から"レアル・マドリード", "バルセロナ"の選手を除外してください
 
-		//Collections.addAll(array, "レアル・マドリード", "バルセロナ");
+		Collections.addAll(array, "レアル・マドリード", "バルセロナ");
 
 		// ★ 削除後のArrayListの中身を全件出力してください
 		System.out.println(ArrayList[]);
