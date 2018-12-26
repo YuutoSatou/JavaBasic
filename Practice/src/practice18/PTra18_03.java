@@ -6,11 +6,11 @@
  */
 package practice18;
 
-import java.io.File;
+import java.io.BufferedReader;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Scanner;
 
 import entity.Player;
 
@@ -22,34 +22,59 @@ public class PTra18_03 {
 
 	public static void main(String[] args) {
 
-		/*
-		 * ①
-		 * ★ file/BestElevenCandidate.csvの内容を取得し、１行毎にPlayerインスタンスに情報を格納してください
-		 * ★ ArrayListを作成して、Playerインスタンスを格納してください
-		 */
+		ArrayList<Player> array = new ArrayList<Player>();
 
-		Player a = new Player();									//Playerインスタンス
+		try {
+			/*
+			 * entity.Playerの作成後に行ってください
+			 *
+			 * ★ file/BestElevenCandidate.csvの内容を取得し、１行毎にPlayerインスタンスに情報を格納してください
+			 * ★ ArrayListを作成して、Playerインスタンスを格納してください
+			 */
+		FileReader fr = null;
 
-		ArrayList<String> array = new ArrayList<String>();			//ArrayList
-		try (Scanner scanner = new Scanner(new File("file/BestElevenCandidate.csv"))) {
-			while (scanner.hasNext()) {
-				String line = scanner.nextLine();
-				// ★ 1行ごとにArrayListに格納してください
-				array.add(line);
+
+		fr = new FileReader("file/BestElevenCandidate.csv");
+		BufferedReader br = new BufferedReader(fr);				//データの読み込みを行うためのクラス
+		String line;											//変数ラインを定義
+		while((line = br.readLine()) !=null) {					//nullでない場合は
+				String[] s = new String[4];							//配列sを定義
+				Player p = new Player();							//pインスタンス
+				s = line.split(",");							//split
+				p.setPosition(s[0]);							//Potiton
+				p.setName(s[1]);								//Name
+				p.setCountry(s[2]);							    //Country
+				p.setTeam(s[3]);								//Team
+
+				array.add(p);										//addメソッド
+
 			}
 		} catch (FileNotFoundException e) {
-			System.out.println("ファイルが見つかりません");
-		}
+			// TODO 自動生成された catch ブロック
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO 自動生成された catch ブロック
+		e.printStackTrace();
+	      }
 
 		// ★ ①のArrayListの中から"レアル・マドリード", "バルセロナ"の選手を除外してください
 
-		Collections.addAll(array, "レアル・マドリード", "バルセロナ");
+		for(int i = array.size()-1;0<=i;i--) {
+			Player player = array.get(i);				//iを取得
+			String team = player.getTeam();				//teamを取得
+			if("レアル・マドリード".equals(team)||"バルセロナ".equals(team)) {
+				array.remove(i);
+			}
+		}
 
 		// ★ 削除後のArrayListの中身を全件出力してください
-		System.out.println(ArrayList[]);
+		for(Player name : array){
+            System.out.println(name);
+        }
 
 
 	}
 }
 
-//途中まで。2018/12/23
+//自力で解けた。(2018/12/26)
+//全件出力は、18-2と同じ。

@@ -20,7 +20,7 @@ public class Player {
 	}
 
 	public void setPosition(String positon) { //set
-		this.position = position;
+		this.position = positon;
 	}
 
 	//name

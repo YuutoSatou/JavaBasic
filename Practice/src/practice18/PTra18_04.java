@@ -39,10 +39,10 @@ public class PTra18_04 {
 				String[] s = new String[4];							//s
 				Player p = new Player();							//p
 				s = line.split(",");								//split
-				p.setPosition(s[0] + ",");							//Potiton
-				p.setName(s[1] + ",");								//Name
-				p.setCountry(s[2] + ",");							//Country
-				p.setTeam(s[3] + ",");								//Team
+				p.setPosition(s[0]);							//Potiton
+				p.setName(s[1]);								//Name
+				p.setCountry(s[2]);							//Country
+				p.setTeam(s[3]);								//Team
 
 				array.add(p);										//add
 
@@ -53,22 +53,19 @@ public class PTra18_04 {
 		}
 
 		Collections.shuffle(array);
-		Collections.shuffle(array);
-		Collections.shuffle(array);
-		Collections.shuffle(array);
 
 
 		// ★ ①のArrayListの中からGK1名、DF4名、MF4名, FW2名をランダムで出力してください
-		System.out.println(array.get(0));
-		System.out.println(array.get(0));	    //4
-		System.out.println(array.get(1));
-		System.out.println(array.get(2));
-		System.out.println(array.get(3));
-		System.out.println(array.get(0));		//4
-		System.out.println(array.get(1));
-		System.out.println(array.get(2));
-		System.out.println(array.get(3));
-		System.out.println(array.get(1));		//1
+//		System.out.println(array.get(0));
+//		System.out.println(array.get(0));	    //4
+//		System.out.println(array.get(1));
+//		System.out.println(array.get(2));
+//		System.out.println(array.get(3));
+//		System.out.println(array.get(0));		//4
+//		System.out.println(array.get(1));
+//		System.out.println(array.get(2));
+//		System.out.println(array.get(3));
+//		System.out.println(array.get(1));		//1
 		int gkCount = 0;
 		int dfCount = 0;
 		int mfCount = 0;
