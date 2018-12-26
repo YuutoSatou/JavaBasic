@@ -54,8 +54,8 @@ public class Player {
 	}
 
 	@Override
-	public String toString() {
-		return this.position + "," + this.name + "," + this.country + "," + this.team;
+	public String toString() {	//toStringメソッドをオーバーライド
+		return this.position + "," + this.name + "," + this.country + "," + this.team;	//区切る
 	}
 }
 //完成(2018/12/25)

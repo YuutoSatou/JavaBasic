@@ -28,7 +28,7 @@ public class PTra18_03 {
 		 * ★ ArrayListを作成して、Playerインスタンスを格納してください
 		 */
 
-		Player a = new Player();	//Playerインスタンス
+		Player a = new Player();									//Playerインスタンス
 
 		ArrayList<String> array = new ArrayList<String>();			//ArrayList
 		try (Scanner scanner = new Scanner(new File("file/BestElevenCandidate.csv"))) {
