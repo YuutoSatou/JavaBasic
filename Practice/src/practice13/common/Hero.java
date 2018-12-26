@@ -6,8 +6,6 @@ public class Hero extends Character {
 	public Hero() {
 		super(25, 10, 7);
 	}
-
-	public String setName() {
-		return this.getName();
-	}
 }
+
+//必要のない部分を削除。

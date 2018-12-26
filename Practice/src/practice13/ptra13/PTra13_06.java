@@ -22,3 +22,5 @@ public class PTra13_06 {
 	 */
 
 }
+
+//SuperHeroクラスを作成。

@@ -8,7 +8,7 @@ package practice13.ptra13;
 
 import practice13.common.Slime;
 
-public class PTra13_03 extends Slime {
+public class PTra13_03 {
 
 	/*
 	 * ★ common.Characterクラスを継承した、common.Slimeクラスを作成してください
@@ -18,15 +18,16 @@ public class PTra13_03 extends Slime {
 
 	public static void main(String[] args) {
 		// ★ common.Slimeクラスをインスンタンス化してください
-		Slime a3 = new Slime();
+		Slime slime = new Slime();
 
 		// ★ common.Slimeインスタンスのnameに"スライム"を設定して下さい
-		a3.setName("スライム");
+		slime.setName("スライム");
 
 		// ★ common.Slimeインスタンスのキャラクター情報を表示してください
-		System.out.println(a3.showParameter());
+		System.out.println(slime.showParameter());
 	}
 }
 
 //正しく表示された。
 //13-2に似ている。
+//変数名をa3からslimeに変更した。

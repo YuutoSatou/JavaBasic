@@ -21,3 +21,5 @@ public class PTra14_02 {
 	 */
 
 }
+
+//クラスを作成

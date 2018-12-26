@@ -26,7 +26,7 @@ public class PTra18_04 {
 		try {
 			fr = new FileReader("file/BestElevenCandidate.csv");
 		} catch (FileNotFoundException e1) {
-			// TODO 自動生成された catch ブロック
+		// TODO 自動生成された catch ブロック
 			e1.printStackTrace();
 		}
 		BufferedReader br = new BufferedReader(fr);

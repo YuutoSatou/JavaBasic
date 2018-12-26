@@ -16,7 +16,19 @@ public class Item {
 	 */
 
 	private String name;
+
 	private int additionalDamage;
+
+	/**
+	 * 装備品の初期値を設定するコンストラクタ
+	 * @param name	装備品名
+	 * @param additionalDamage	追加ダメージ
+	 */
+	public Item(String name, int additionalDamage) {	//コンストラクタを追記。
+		this.name = name;
+		this.additionalDamage = additionalDamage;
+	}
+
 
 	public String getName() { //name get
 		return this.name;

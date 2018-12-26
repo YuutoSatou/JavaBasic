@@ -26,7 +26,7 @@ public class PTra18_02 {
 	 */
 
 	public static void main(String[] args){
-		ArrayList<Player> array = new ArrayList<Player>();
+		ArrayList<Player> array = new ArrayList<Player>();		//最初に定義
 		try {
 			/*
 			 * entity.Playerの作成後に行ってください
@@ -37,19 +37,19 @@ public class PTra18_02 {
 		FileReader fr = null;
 
 
-		fr = new FileReader("file/BestElevenCandidate.csv");
+		fr = new FileReader("file/BestElevenCandidate.csv");	//csv
 		BufferedReader br = new BufferedReader(fr);				//データの読み込みを行うためのクラス
 		String line;											//変数ラインを定義
 		while((line = br.readLine()) !=null) {					//nullでない場合は
-				String[] s = new String[4];							//配列sを定義
-				Player p = new Player();							//pインスタンス
+				String[] s = new String[4];						//配列sを定義
+				Player p = new Player();						//pインスタンス
 				s = line.split(",");							//split
 				p.setPosition(s[0]);							//Potiton
 				p.setName(s[1]);								//Name
 				p.setCountry(s[2]);							    //Country
 				p.setTeam(s[3]);								//Team
 
-				array.add(p);										//addメソッド
+				array.add(p);									//addメソッド
 
 			}
 		} catch (FileNotFoundException e) {
