@@ -18,26 +18,14 @@ public class PTra15_01 {
 		DBCourse dbCourse = new DBCourse();
 
 		// ★ Course[	]の配列に jcourse と dbCourse のインスタンスを代入してください。
+		Course[] courseList = new Course[2];	//箱を２つ用意
+		courseList[0] = jCourse;				//一つ目に入れる
+		courseList[1] = dbCourse;				//二つ目に入れる
 
-
-
-
-		// ① int[] 型の 配列 score を作成
-		JavaCourse[] Course;
-		// ② 要素を5つ作って、変数 score に代入する。
-		Course = new JavaCourse[5];
-		Course[0] = new JavaCourse();
-
-		DBCourse[] Course1;
-		Course1 = new DBCourse[5];
-		Course1[0] = new DBCourse();
-
-		Object courseList;
-		for (Course course : courseList) {
-			System.out.println(course.getCourseName());
+		for (Course course : courseList) {					//正解
+			System.out.println(course.getCourseName());		//正解
 		}
 	}
 
 }
-//ただ単純に配列にインスタンスを代入する。
-//難しい。
+//ただ単純に、配列にインスタンスを代入する。→解決
