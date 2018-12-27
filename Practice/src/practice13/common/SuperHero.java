@@ -8,7 +8,7 @@ package practice13.common;
 		 * 装備しているアイテムを取得します
 		 * @return	装備しているアイテム
 		 */
-		public Item getEquipment() {
+		public Item getEquipment() {		//get
 			return equipment;
 		}
 
@@ -16,12 +16,12 @@ package practice13.common;
 		 * アイテムを装備します
 		 * @param equipment	装備したいアイテム
 		 */
-		public void setEquipment(Item equipment) {
+		public void setEquipment(Item equipment) {		//set
 			this.equipment = equipment;
 		}
 
 		@Override
-		public int attack() {
+		public int attack() {		//attackメソッドをオーバーライド
 			return super.attack() + this.equipment.getAdditionalDamage();
 		}
 	}

@@ -24,3 +24,4 @@ public class PTra13_06 {
 }
 
 //SuperHeroクラスを作成。
+//equipmentのアクセサ(get,set)を作成。

@@ -56,16 +56,6 @@ public class PTra18_04 {
 
 
 		// ★ ①のArrayListの中からGK1名、DF4名、MF4名, FW2名をランダムで出力してください
-//		System.out.println(array.get(0));
-//		System.out.println(array.get(0));	    //4
-//		System.out.println(array.get(1));
-//		System.out.println(array.get(2));
-//		System.out.println(array.get(3));
-//		System.out.println(array.get(0));		//4
-//		System.out.println(array.get(1));
-//		System.out.println(array.get(2));
-//		System.out.println(array.get(3));
-//		System.out.println(array.get(1));		//1
 		int gkCount = 0;
 		int dfCount = 0;
 		int mfCount = 0;
